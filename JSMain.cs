@@ -215,12 +215,12 @@ namespace Jeevansathi
 #if LOGINRUN
 #if F_PROFILES
             if(string.IsNullOrEmpty(username))
-            username = "munishgoyal1@gmail.com";
-            string password = "amit1978";
+            username = "@gmail.com";
+            string password = "";
 
 #else
-            string username = "sonalsinha28@yahoo.in";
-            string password = "O1lyhead";
+            string username = "@yahoo.in";
+            string password = "";
 #endif
             string pageData = "hii";
             //pageData = HttpHelper.GetWebPageResponse("http://www.jeevansathi.com/profile/login.php",
